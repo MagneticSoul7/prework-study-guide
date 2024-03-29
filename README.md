@@ -1,18 +1,9 @@
+
 # Prework Study Guide Webpage
 
 ## Description
 
-Provide a short explanation of the what, why, and how of your project. Use the following questions as a guide:
-
-This 
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-Example: This Prework Study Guide was created for boot camp students who were going through the Prework. It contains notes on HTML, CSS, Git, and JavaScript.
-
+I was motivated to build this online study guide to help myself remember some of the fundamental basics of web development and Git before I start attending ASU's fullstack web-development bootcamp. This online study guide will be a place that I can refer back to quickly and easily throughout my studies in the bootcamp in case I forget one of the Git commands or in case I need to refresh my memory on some of the differences between HTML, CSS, and Javascript. I can continue to add more notes to it whenever I want, and maybe it might help other beginners who are trying to learn web-development as well.
 
 ## Installation
 
@@ -20,11 +11,9 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. 
+Example: To use this Prework Study Guide, you can review the notes in each section (HTML, CSS, Git, or Javascript). Or if you prefer to choose which topic study at random, open the study guide website in Google Chrome, then open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). Or another way to open the Chrome DevTools is to right click on the study guide webpage and choose "inspect" at the very bottom of the menu. Once you have opened the Chrome DevTools (which should open either below or to the side of the webpage in the browser), you'll want to switch to the "Console" tab instead of the "Elements" tab . There in the Console tab, you will see the list of four topics to study along with a computer-randomized suggestion of what to study first. And then each time you want a new randomized suggestion of what to study next, you can simply press the refresh button located next to your browser's URL.
 
-Example: To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
-
-write a short paragraph about how this Prework Study Guide can be used. For example, you can write about how each section contains notes about a certain topic, like HTML, CSS, JavaScript, Git. And if we open the DevTools console, we can see the JavaScript running. It will list the topics we learned from prework and choose one topic for us to study first.
+Happy Studying!
 
 ## Credits
 
@@ -32,8 +21,26 @@ N/A
 
 ## License
 
-keep the MIT license that we chose when we first created the repository.Please refer to the LICENSE in the repo.
+MIT License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+Copyright (c) 2024 MagneticSoul7
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
