@@ -1,19 +1,29 @@
 * {
     margin: 0;
-    padding: 0;
+    padding-bottom: 0;
 }
 
-header,
-footer {
+header {
     width: 100%;
-    height: 120px;
+    height: 170px;
     background-color: blue;
     color: white;
 }
 
-h1,
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
+    padding-top: 10px;
 }
 
 img {
@@ -22,10 +32,12 @@ img {
     width: 50px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 7px;
 }
 
 ul {
     padding-left: 40px;
+    padding-right: 20px;
     font-size: 20px;
 }
 
