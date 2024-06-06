@@ -1,154 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Prework Study Guide</title>
-  </head>
-  
 
-  <body>
-    
-    <header id="top">
-      <br>
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
-      <br>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Prework Study Guide</title>
+</head>
+
+
+<body>
+
+  <header id="top">
     <br>
-    
 
-    <main>
+    <h1>Prework Study Guide</h1>
+    <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    <h2>✨ Open the Console to See What's Happening ✨</h2>
+    <br>
 
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <br>
-        <ul>
-          <li>The <b>head</b> element contains information about the webpage.</li>
-          <li>The <b>body</b> element represents the visible content shown to the user.</li>
-              <ul><li>The body element comprises three parts: header, main, and footer.</li></ul>
-        </ul>
-        <br>
-      </section>
-       
+  </header>
+  <br>
 
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
 
-        <br>
-        <ul>
-          <li>'Margin' indicates how much space we want around the outside of an element. (Adds space <i>outside</i> an element).</li>
-          <li>'Padding' indicates how much space we want around the content inside an element. (Adds space <i>inside</i> an element).</li>
-        </ul>
+  <main>
 
-          <br>
-        <ul>  
-          <h4>Example:</h4>
-        </ul>
-
-        <ul>
-          <li>.card {
-            width: 80%;
-            margin: 40px auto;
-            border: 5px solid gray;
-            box-shadow: 5px 10px #888888;
-          }</li> 
-        </ul>
-        <br>
-
-        <ul>
-          <h4>Let's break down the properties and values in this rule, as follows:</h4>
-        </ul>
-
-        <ul>
-          <li>The period preceding 'card' designates this as a class selector. Any HTML element assigned to the class, card, will gain these property assignments from the CSS.</li>
-          <li>The first declaration addresses the 'width' of the element at 80% of the available width.</li>
-          <li>The 'margin' property assigns 40px to the top and bottom, and the 'auto' value to the left and right.</li>
-          <li>The 'border' property assigns a border with a width of 5px that is solid and gray.</li>
-          <li>The 'box-shadow' CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color. In our example, the X offset is 5px and defines the width or extent of the shadow on the X axis (or to the right of the box); the Y offset is 10px and defines the extent on the Y axis (or just below the box). We haven’t defined the blur or spread radius here, but you’ll learn more about this in time. We’ve used an HTML hexadecimal code to define the color.</li>
-        </ul>
-        <br>
-      </section>
-    
-
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-
-        <br>
-        <ul>
-          <li>git status: checks what branch we are currently in.</li>
-          <li>git checkout -b feature/branch-name: creates a new branch and switches to it.</li>
-        </ul>
-
-            <br>
-            <ul>
-              <h4>Create Pull Request (PR):</h4>
-            </ul>
-
-        <ul>
-          <li>git add -A</li>
-          <li>git commit -m “your message here”</li>
-          <li>git pull origin main</li>
-          <li>git push origin feature/branch-name</li>
-        </ul>
-
-            <br>
-            <ul>
-              <h4>After PR has been Merged:</h4>
-            </ul>
-
-        <ul>
-          <li>git checkout main</li>
-          <li>git pull origin main</li>
-        </ul>
-        <br>
-      </section>
-   
-
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-        
-        <br>
-        <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
-        </ul>
-
-          <br>
-          <ul>
-            <h4>Reflection - In this lesson, you accomplished the following:</h4>
-          </ul>
-
-        <ul>
-          <li>Declared functions.</li>
-          <li>Repackaged the for loop and if statement as functions.</li>
-          <li>Called functions.</li>
-          <li>Debugged functions.</li>
-          <li>Used console.log to test the interactivity of your website.</li>
-        </ul>
-        <br>
-      </section>
-
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
       <br>
-    </main>
 
-
-    <footer>
-
+      <ul>
+        <li>The <b>head</b> element contains information about the webpage (in other words, it contains only the
+          <i>non-visible</i> parts of a website).
+        </li>
+        <li>The <b>body</b> element, however, represents the <i>visible</i> content shown to the user (or the
+          <i>visible</i> parts of a website) and is made up of three parts: <b>header</b> <i>(not to be confused with
+            head)</i>, <b>main</b>, and <b>footer</b>.
+        </li>
+      </ul>
       <br>
-      <br>
-      <p>I can code!</p>
-    </footer>
-    
+    </section>
 
-    <script src="./assets/script.js"></script>
-  
-  </body>
+
+    <section class="card" id="css-section">
+      <h2>CSS</h2>
+      <br>
+
+      <ul>
+        <li>'Margin' indicates how much space we want around the outside of an element. (Adds space <i>outside</i> an
+          element).</li>
+        <li>'Padding' indicates how much space we want around the content inside an element. (Adds space <i>inside</i>
+          an element).</li>
+      </ul>
+      <br>
+
+      <ul>
+        <h4>Example:</h4>
+      </ul>
+
+      <ul>
+        <li>.card {
+          width: 80%;
+          margin: 40px auto;
+          border: 5px solid gray;
+          box-shadow: 5px 10px #888888;
+          }</li>
+      </ul>
+      <br>
+
+      <ul>
+        <h4>Let's break down the properties and values in this rule as follows:</h4>
+      </ul>
+
+      <ul>
+        <li>The period preceding 'card' designates this as a class selector. Any HTML element assigned to the class
+          'card' will gain these property assignments from the CSS.</li>
+        <li>The first declaration addresses the 'width' of the element at 80% of the available width.</li>
+        <li>The 'margin' property assigns 40px to the top and bottom areas <i>outside</i> the element, and it also
+          assigns the auto value to the left and right areas <i>outside</i> the element.</li>
+        <li>The 'border' property assigns a border with a width of 5px that is solid and gray.</li>
+        <li>The 'box-shadow' CSS property adds shadow effects around an element's frame. You can set multiple effects
+          separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread
+          radius, and color. In our example, the X offset is 5px and defines the width or extent of the shadow on the X
+          axis (or to the right of the box); the Y offset is 10px and defines the extent on the Y axis (or just below
+          the box). We haven’t defined the blur or spread radius here, but you’ll learn more about this in time. We’ve
+          used an HTML hexadecimal code to define the color.</li>
+        <li>In this example, the coder did not use a padding property.</li>
+      </ul>
+      <br>
+    </section>
+
+
+    <section class="card" id="git-section">
+      <h2>Git</h2>
+      <br>
+
+      <ul>
+        <h4>Create a New Branch:</h4>
+      </ul>
+
+      <ul>
+        <li>git status: checks what branch we are currently in.</li>
+        <li>git checkout -b feature/branch-name: creates a new branch and switches to it.</li>
+      </ul>
+      <br>
+
+      <ul>
+        <h4>Create a Pull Request (PR):</h4>
+      </ul>
+
+      <ul>
+        <li>git add -A</li>
+        <li>git commit -m “your message here”</li>
+        <li>git pull origin main</li>
+        <li>git push origin feature/branch-name</li>
+      </ul>
+      <br>
+
+      <ul>
+        <h4>After PR has been Merged:</h4>
+      </ul>
+
+      <ul>
+        <li>git checkout main</li>
+        <li>git pull origin main</li>
+      </ul>
+      <br>
+    </section>
+
+
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+      <br>
+
+      <ul>
+        <li> A <b>Variable</b> is a named container that allows us to store data in our code.</li>
+        <li> <b>Control flow</b> is the order in which a computer executes code in a script.</li>
+      </ul>
+      <br>
+
+      <ul>
+        <h4>Reflection - In this lesson, you accomplished the following:</h4>
+      </ul>
+
+      <ul>
+        <li>Declared functions.</li>
+        <li>Repackaged the 'for loop' and 'if statement' as functions.</li>
+        <li>Called functions.</li>
+        <li>Debugged functions.</li>
+        <li>Used console.log to test the interactivity of your website.</li>
+      </ul>
+      <br>
+    </section>
+    <br>
+
+  </main>
+
+
+  <footer>
+    <br>
+    <br>
+    <p>I can code!</p>
+  </footer>
+
+
+  <script src="./assets/script.js"></script>
+
+</body>
 
 
 </html>
