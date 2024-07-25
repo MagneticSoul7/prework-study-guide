@@ -17,7 +17,8 @@ Happy Studying!
 
 ## Credits
 
-N/A
+Heather Serrano 
+Git Copilot 
 
 ## License
 
