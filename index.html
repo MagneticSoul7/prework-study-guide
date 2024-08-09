@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/style.css" />
   <title>Prework Study Guide</title>
 </head>
 
@@ -23,77 +23,90 @@
   </header>
 
   <nav>
-    <ul>
-        <h4>
-          <a href="#html-section" style="color: #2980B9; text-decoration: none;">HTML</a> &nbsp;
-          <a href="#css-section" style="color: #2980B9; text-decoration: none;">CSS</a> &nbsp;
-          <a href="#git-section" style="color: #2980B9; text-decoration: none;">Git</a> &nbsp;
-          <a href="#javascript-section" style="color: #2980B9; text-decoration: none;">JavaScript</a>
-        </h4>
-    </ul>
+    <h3>
+      <a href="#terminal-commands-section" style="color: #2980B9; text-decoration: none;">TerminalCommands</a> &nbsp
+      <a href="#html-section" style="color: #2980B9; text-decoration: none;">HTML</a> &nbsp
+      <a href="#css-section" style="color: #2980B9; text-decoration: none;">CSS</a> &nbsp
+      <a href="#javascript-section" style="color: #2980B9; text-decoration: none;">JavaScript</a> &nbsp
+      <a href="#git-section" style="color: #2980B9; text-decoration: none;">Git</a> &nbsp
+    </h3>
   </nav>
 
+
   <main>
+    <br>
+    <br>
+
+    <section class="card" id="terminal-commands-section">
+      <h2>Terminal Commands</h2>
+      <br>
+
+      <ul>
+        <li> <b>ls</b> Lists the directories(aka folders) and files contained inside of whichever directory you are
+          currently in. </li>
+        <li> <b>cd</b> Lets you navigate <i>forward/downward</i> to a child directory within whichever directory you are
+          currently in. </li>
+        <li> <b>cd ..</b> Lets you navigate <i>backward/upward</i> one directory (back to the parent directory). </li>
+        <li> <b>mkdir</b> Creates a new directory (aka new folder) inside of whichever directory(folder) you are
+          currently in. </li>
+        <li> <b>touch</b> Creates a new file inside of whichever directory(folder) you are currently in. </li>
+      </ul>
+      <br>
+    </section>
+
 
     <section class="card" id="html-section">
       <h2>HTML</h2>
       <br>
+
       <ul>
-        <li>The <b>HEAD</b> element contains information about the webpage (only the <i>non-visible</i> parts of a
-          website).</li>
+        <h4>The HEAD & BODY:</h4>
         <br>
-        <li>The <b>BODY</b> element, however, represents the <i>visible</i> content shown to the user (or the
-          <i>visible</i> parts of a website) and is made up of three parts:
-        </li>
+        1. The <b>HEAD</b> element contains all the <i>non-visible</i> parts of a website (contains information about the webpage).
+        <br>
+        2. The <b>BODY</b> element, however, contains all the <i>visible</i> parts of a website, and is divided into three parts:
         <ol>
-          1. <b>header</b> <i>(not to be confused with head)</i>
+          1. <b>header</b> <i>(not to be confused with head)</i> 
           <br>
-          2. <b>main</b>
+          2. <b>main</b> 
           <br>
-          3. <b>footer</b>
+          3. <b>footer</b> 
         </ol>
       </ul>
       <br>
 
       <ul>
-        <li>
-          <h4>Some helpful HTML tags to remember:</h4>
-        </li>
-        <b style="color: rgb(241, 162, 241);">
-          < b>
-        </b> Makes text <b>bold.</b> <br>
-        <b style="color: rgb(196, 85, 196);">
-          < i>
-        </b> Makes text <i>italic.</i> <br>
-        <b style="color: rgb(135, 25, 214);">
-          < ol>
-        </b> Makes an ordered list. <br>
-        <b style="color: blue;">
-          < ul>
-        </b> Makes an unordered list. <br>
-        <b style="color: rgb(18, 178, 226);">
-          < li>
-        </b> Makes a list item starting with a bullet point. <br>
-        <b style="color: rgb(31, 169, 91);">
-          < a>
-        </b> Makes a hyperlink. <br>
-        <b style="color: rgb(157, 179, 18);">
-          < img>
-        </b> Inserts an image. <br>
-        <b style="color: rgb(229, 196, 11);">
-          < h1> through < h6>
-        </b> Makes a heading with decreasing sizes (h1 having the largest text and h6 having the smallest text). <br>
-        <b style="color: darkorange;">
-          < p>
-        </b> Makes a paragraph. <br>
-        <b style="color: red;">
-          < section>
-        </b> Defines a section in an HTML document. <br>
-        <b style="color: lightcoral;">
-          < br>
-        </b> Inserts a single line break. <br>
+        <h4>Some helpful HTML tags to remember:</h4>
+        <b style="color: rgba(255, 32, 207, 0.739);"> < b > </b> Makes text <b>bold.</b>
         <br>
-        <small>(Note: The colors are just me having fun and do not affect the code).</small>
+        <b style="color: rgb(179, 1, 255);"> < i > </b> Makes text <i>italic.</i>
+        <br>
+        <b style="color: rgb(97, 25, 214);"> < ol > </b> Makes an ordered list.
+        <br>
+        <b style="color: rgb(12, 118, 239);"> < ul > </b> Makes an unordered list.
+        <br>
+        <b style="color: rgb(18, 188, 226);"> < li > </b> Makes a list item starting with a bullet point.
+        <br>
+        <b style="color: rgb(21, 164, 86);"> < a > </b> Makes a hyperlink.
+        <br>
+        <b style="color: rgb(178, 227, 19);"> < img > </b> Inserts an image.
+        <br>
+        <b style="color: rgb(244, 212, 3);"> < h1 > </b> through <b style="color: rgb(229, 196, 11);"> < h6 > </b> 
+        Makes a heading (h1 having the largest text and h6 having the smallest text).
+        <br>
+        <b style="color: rgb(255, 166, 0);"> < p > </b> Makes a paragraph.
+        <br>
+        <b style="color: rgb(255, 68, 0);"> < section > </b> Defines a section in an HTML document.
+        <br>
+        <b style="color: rgba(187, 13, 89, 0.889);"> < br > </b> Inserts a single line break.
+        <br>
+        <b style="color: rgb(250, 114, 143);"> & nbsp </b> Inserts a space without a line break.
+        <br>
+        <br>
+
+        <small>(Note: Remove all spaces when putting these tags into code, otherwise it will not work).</small>
+        <br>
+        <small>(Note: The colors are just me having fun and are completely irrelevant and do not affect the code).</small>
       </ul>
       <br>
     </section>
@@ -104,22 +117,16 @@
       <br>
 
       <ul>
-        <li><b>Margin</b> indicates how much space we want around the outside of an element. (Adds space <i>outside</i>
-          an
-          element).</li>
-        <li><b>Padding</b> indicates how much space we want around the content inside an element. (Adds space
-          <i>inside</i>
-          an element).</li>
+        <h4>Margin VS Padding:</h4>
+        <li> <b>Margin</b> indicates how much space you want around the <u>outside</u> of an element. (Adds space <i>outside</i>
+          an element). </li>
+        <li> <b>Padding</b> indicates how much space you want around the content <u>inside</u> an element. (Adds space
+          <i>inside</i> an element, around the content). </li>
       </ul>
       <br>
 
       <ul>
-        <li>
-          <h4>Example:</h4>
-        </li>
-      </ul>
-
-      <ul>
+        <h4>Example:</h4>
         .card {
         width: 80%;
         margin: 40px auto;
@@ -131,9 +138,6 @@
 
       <ul>
         <h4>Let's break down the properties and values in this rule as follows:</h4>
-      </ul>
-
-      <ul>
         <li>The period preceding 'card' designates this as a class selector. Any HTML element assigned to the class
           'card' will gain these property assignments from the CSS.</li>
         <li>The first declaration addresses the 'width' of the element at 80% of the available width.</li>
@@ -142,48 +146,18 @@
         <li>The 'border' property assigns a border with a width of 5px that is solid and gray.</li>
         <li>The 'box-shadow' CSS property adds shadow effects around an element's frame. You can set multiple effects
           separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread
-          radius, and color. In our example, the X offset is 5px and defines the width or extent of the shadow on the X
+          radius, and color. In this example, the X offset is 5px and defines the width or extent of the shadow on the X
           axis (or to the right of the box); the Y offset is 10px and defines the extent on the Y axis (or just below
           the box). We haven’t defined the blur or spread radius here, but you’ll learn more about this in time. We’ve
           used an HTML hexadecimal code to define the color.</li>
         <li>In this example, the coder did not use a padding property.</li>
       </ul>
       <br>
-    </section>
-
-
-    <section class="card" id="git-section">
-      <h2>Git</h2>
       <br>
 
       <ul>
-        <h4>Create a New Branch:</h4>
-      </ul>
-
-      <ul>
-        <li>git status: checks what branch we are currently in.</li>
-        <li>git checkout -b feature/branch-name: creates a new branch and switches to it.</li>
-      </ul>
-      <br>
-
-      <ul>
-        <h4>Create a Pull Request (PR):</h4>
-      </ul>
-
-      <ul>
-        <li>git add -A</li>
-        <li>git commit -m “your message here”</li>
-        <li>git push origin feature/branch-name</li>
-      </ul>
-      <br>
-
-      <ul>
-        <h4>After PR has been Merged:</h4>
-      </ul>
-
-      <ul>
-        <li>git checkout main</li>
-        <li>git pull origin main</li>
+        <b>FLEXBOX:</b> helps you align, distribute, and lay out various elements and spaces on your website.
+        <li> <a href="https://levelup.gitconnected.com/learn-css-flexbox-the-easy-way-27bd01922040">Helpful article for learning Flexbox</a> </li>
       </ul>
       <br>
     </section>
@@ -194,26 +168,86 @@
       <br>
 
       <ul>
-        <li> A <b>Variable</b> is a named container that allows us to store data in our code.</li>
+        <h4>Some Basics:</h4>
+        <li> A <b>Variable</b> is a named container that allows you to store data in your code.</li>
         <li> <b>Control flow</b> is the order in which a computer executes code in a script.</li>
       </ul>
       <br>
 
       <ul>
-        <h4>Reflection - In this lesson, you accomplished the following:</h4>
+        <h4>You'll also want to learn how to do these:</h4>
+        <li>Declare functions.</li>
+        <li>Repackage the 'for loop' and 'if statement' as functions.</li>
+        <li>Call functions.</li>
+        <li>Debug functions.</li>
+        <li>Use console.log to test the interactivity of your website.</li>
       </ul>
+      <br>
 
       <ul>
-        <li>Declared functions.</li>
-        <li>Repackaged the 'for loop' and 'if statement' as functions.</li>
-        <li>Called functions.</li>
-        <li>Debugged functions.</li>
-        <li>Used console.log to test the interactivity of your website.</li>
+        <b>JavaScript Beginner Tutorial Videos:</b>
+        <li> <a href="https://www.youtube.com/watch?v=qoSksQ4s_hg&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET">YouTube Tutorials for JavaScript</a> </li>
       </ul>
       <br>
     </section>
-    <br>
 
+
+    <section class="card" id="git-section">
+      <h2>Git</h2>
+      <br>
+
+      <ul>
+        <h4>Clone a Remote Repository:</h4>
+        <ol>
+          <li>git clone <i>'SSH key goes here'</i> </li>
+          <small>(Copy the 'SSH key' from the Github repo you want to clone, then type "git clone " in the terminal,
+            then paste the SSH key and hit enter on your keyboard. This is assuming you've already set up the SSH key
+            functionality on your computer).</small>
+        </ol>
+      </ul>
+      <br>
+
+      <ul>
+        <h4>Create a New Branch:</h4>
+        <ol>
+          <li> git status <small>(Checks what branch you are currently in).</small> </li>
+          <li> git checkout -b feature/branch-name <small>(Creates a new branch and switches to it).</small> </li>
+          <small>(3. Write some code).</small>
+        </ol>
+        
+      </ul>
+      <br>
+
+      <ul>
+        <h4>Create a Pull Request (PR):</h4>
+        <ol>
+          <li>git add -A</li>
+          <li>git commit -m “briefly describe the changes you made”</li>
+          <li>git push origin feature/branch-name</li>
+        </ol>
+      </ul>
+      <br>
+      <br>
+
+      <ul>
+        <h4>Go to Github to Merge the Pull Request.</h4>
+      </ul>
+      <br>
+      <br>
+
+      <ul>
+        <h4>After PR has been Merged:</h4>
+        <ol>
+          <li>git checkout main</li>
+          <li>git pull origin main</li>
+        </ol>
+      </ul>
+      <br>
+    </section>
+
+    <br>
+    <br>
+    <br>
   </main>
 
 
@@ -223,10 +257,9 @@
     <p>✨ I can code! ✨</p>
   </footer>
 
-
   <script src="./assets/script.js"></script>
 
-
 </body>
+
 
 </html>
